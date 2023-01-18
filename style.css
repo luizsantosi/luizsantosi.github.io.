@@ -1,6 +1,6 @@
 *{
     padding: 0;margin: 0;
-    box-sizing: border-box;overflow: hidden;
+    box-sizing: border-box;
 
 }
 
@@ -9,9 +9,10 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #1b1b1b;
+    font-size: 16px;
 }
 header{
-    background-color: slateblue;
+    background-color: #AE00FF;
     color: #fbfbfb;
     padding: 5px;
     text-align: center;
@@ -31,13 +32,13 @@ header{
 }
 .site{
     margin-left: 130px;
-    color:yellowgreen;
+    color:#3FD2FF;
     text-decoration: none;
 }
 .user-name{
     text-align: center;
     font-size: 22px;
-    color:slateblue;
+    color:#AE00FF;
 }
 .user-dis{
     text-align: center;
@@ -59,4 +60,56 @@ header{
 }
 .infos ul li{
     font-size: 18px;
+}
+.about-me{
+    background-color: #1b1b1b;
+    color: #fbfbfb;
+    padding: 20px 5%;
+    height: 550px;
+    margin-top: 30px;
+    text-align: center;
+}
+.about-me .content-text{
+    display: grid;
+   justify-content: center;
+}
+.about-me h1{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.about-me p{
+    margin-top: 30px;
+    font-size: 1.4rem;
+    line-height: 29px;
+    width: 500px;
+    
+}
+.about-me p a {
+    color: #AE00FF;
+    text-decoration:none;
+    font-weight: 500;
+
+}
+/* fim secao about-me */
+
+/* inicio secao habilidades */
+.habilits{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.habilits h3{
+    font-size: 1.9rem;
+    padding: 20px 0;
+    color: #AE00FF;
+
+}
+
+.habilits ul li{
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+    font-size: 1.3rem;
 }
